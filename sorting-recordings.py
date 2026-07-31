@@ -1,5 +1,5 @@
 #8.15.21, 9.16.21, 6.11.23,  4.19.26, and 7.31.26
-search_dir = "../Documents/AppDomainGroup-group.com.apple.VoiceMemos.shared/Recordings/"
+search_dir = "./"
 title = "recordings"
 #
 import os
@@ -95,7 +95,7 @@ for x in range (0, len(notes)):
     html = html + "<tr><td><a href=\"" + search_dir + notes[x] +"\">" + names[x] +"</a> ("+dlength+") </td><td class=\"hidden\">" + dates[x] + "</td><td class=\"hidden\">" + times[x] + "</td><td class=\"hidden\">" + str(length) + "</td></tr>\r\n"
 filename = datetime.datetime.now()
 filename = filename.strftime("%Y%m%d%H%M")
-filename = "sorting-notes-" + filename + ".html"
+filename = "sorting-recordings-" + filename + ".html"
 f = open(filename, "w")
 f.write(pretable)
 f.write(html)
