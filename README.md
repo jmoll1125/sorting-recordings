@@ -16,5 +16,5 @@ You may also change `title` in line 3 to change the title of the page sorting-re
 
 sorting-recordings is built to work with Stuart Langridge’s [sorttable](https://www.kryogenix.org/code/browser/sorttable/) JavaScript library. [Download a copy of sorttable](https://www.kryogenix.org/code/browser/sorttable/sorttable.js) and place it in the same directory as the file sorting-recordings generated in order to enable sorting. Click a heading to sort by that data point; click it again to sort the other direction.
 
-## [Example output](https://jmoll1125.github.io/sorting-recordings/demo/)
+## [Example output](https://jmoll1125.github.io/sorting-recordings/demo/sorting-notes-demo.html)
 ## [Download sorting-recordings](https://jmoll1125.github.io/sorting-recordings/sorting-recordings.py)
