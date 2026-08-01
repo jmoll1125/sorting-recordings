@@ -1,5 +1,5 @@
-#8.15.21, 9.16.21, 6.11.23,  4.19.26, and 7.31.26
-search_dir = "./"
+#8.15.21, 9.16.21, 6.11.23, 4.19.26, and 7.31.26
+search_dir = "./AppDomainGroup-group.com.apple.VoiceMemos.shared/Recordings/"
 title = "recordings"
 #
 import os
@@ -70,7 +70,7 @@ sorttable.innerSortFunction.apply(myTH, []);
 </head>
 <body>
 <h1>"""+title+"""</h1>
-<p>sort by: <a href="#" onclick="sort(1)">date</a> &nbsp; <a href="#" onclick="sort(2)">time</a> &nbsp; <a href="#" onclick="sort(3)">length</a>
+<p>sort by: <a href="#" onclick="sort(1)">date</a> &nbsp; <a href="#" onclick="sort(2)">time</a> &nbsp; <a href="#" onclick="sort(3)">length</a></p>
 <table id="notes" class="sortable">
 <thead><tr><th>date</th><th>name</th><th>time</th><th>size</th></thead>
 <tbody>
