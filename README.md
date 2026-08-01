@@ -8,7 +8,7 @@ sorting-recordings requires the Python library [Mutagen](https://mutagen.readthe
 sorting-recordings is intended to be run on a directory of iPhone voice memos. I extracted mine from an iTunes backup using MaxiHuHe04's excellent iTunes Backup Explorer. To extract your voice memos from a backup:
 1. Download/install [iTunes Backup Explorer](https://github.com/MaxiHuHe04/iTunes-Backup-Explorer), launch it, and select your backup.
 2. Navigate to Files, then `Application Groups`, then select `AppDomainGroup-group.com.apple.VoiceMemos.shared`. Click "Export selected domains" and save the folder. Your memos will be located in `AppDomainGroup-group.com.apple.VoiceMemos.shared/Recordings/`.
-3. Ensure search_dir in line 2 points to the folder of recordings. For example: `search_dir = /Users/jmoll1125/Documents/AppDomainGroup-group.com.apple.VoiceMemos.shared/Recordings/` Make sure to include the trailing slash! By default, sorting-recordings will look in `./AppDomainGroup-group.com.apple.VoiceMemos.shared/Recordings/` for your memos. 
+3. Ensure search_dir in line 2 points to the folder of recordings. For example: `search_dir = "/Users/jmoll1125/Documents/AppDomainGroup-group.com.apple.VoiceMemos.shared/Recordings/"` Make sure to include the trailing slash! By default, sorting-recordings will look in `./AppDomainGroup-group.com.apple.VoiceMemos.shared/Recordings/` for your memos. 
 
 When run, sorting-recordings will create an HTML file named based on the current time. For example: `sorting-recordings-202603301206.html`.
 
