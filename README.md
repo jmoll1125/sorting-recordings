@@ -1,6 +1,6 @@
 # sorting-recordings
 
-sorting-recordings is a version of my [sorting-notes program](https://github.com/jmoll1125/sorting-notes$0) tailored towards processing iPhone voice memos. Like sorting-notes, it is a Python script that creates a sortable HTML table of all the files in a directory. The table can be sorted by date modified, time modified, and length.
+sorting-recordings is a version of my [sorting-notes program](https://github.com/jmoll1125/sorting-notes) tailored towards processing iPhone voice memos. Like sorting-notes, it is a Python script that creates a sortable HTML table of all the files in a directory. The table can be sorted by date modified, time modified, and length.
 
 ## Usage
 sorting-recordings requires the Python library [Mutagen](https://mutagen.readthedocs.io/en/latest/index.html).
